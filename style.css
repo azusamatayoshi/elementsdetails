@@ -1,0 +1,162 @@
+@charset "utf-8";
+
+body {
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+
+.row {
+  background-color: #c2c2d6;
+  border-radius: 10px;
+}
+
+.col a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #000;
+  font-size: 1.2em;
+}
+
+.col a:hover {
+  color: #f00;
+}
+
+
+header {
+  margin: 20px auto;
+  text-align: center;
+ /* background-color: #ccc;*/
+  padding: 20px;
+  width: 60%;
+}
+
+.col {
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  border: 1px solid #999;
+  border-radius: 10px;
+  margin: 3px 3px;
+ box-shadow: 0 3px 2px #808080;
+}
+
+
+.turquoise, .pinkD {
+background: #fff; /*#ff66ff;*/
+}
+
+.pinkL {
+  background: #fff; /*#ffccff;*/
+}
+  
+.greenD {
+  background: #fff; /*#85e085;*/
+}
+
+.greenL {
+  background: #fff; /*#d6f5d6;*/
+}
+
+.blueD {
+  background: #fff; /*#6666ff;*/
+}
+
+.blueL {
+  background: #fff; /*#ccccff;*/
+}
+
+.orange {
+background: #fff; /* #FF8C00;*/
+}
+
+.aqua {
+  background: #fff; /*#00FFFF;*/
+}
+
+.orangered {
+  background: #fff; /*#FF4500;*/
+}
+
+.palepink {
+  background: #fff; /*#FFC0CB;*/
+}
+
+.brown {
+  background: #fff; /*#8B4513;*/
+}
+
+.blue {
+  background: #fff; /*#0000FF;*/
+}*/
+
+
+/*
+.explanation {
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+  background-color: #999;
+}
+.mark div p {
+  display: inline-block;
+}
+.box1 {
+  width: 25px;
+  height: 25px;
+  background: radial-gradient(#fff,#FFFF00);
+  border: 1px solid #999;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px #ccc;
+}
+  
+.box2 {
+    width: 25px;
+    height: 25px;
+    background: radial-gradient(#fff,#00FF00);
+    border: 1px solid #999;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px #ccc;
+}
+*/
+
+.list {
+  width: 20%;
+  /*background-color: #ffc;*/
+}
+
+.orderedlist li {
+  list-style: none;
+}
+
+summary {
+  border-bottom: 1px solid #999;
+  padding-top: 5px;
+}
+
+.table {
+  margin: 20px auto 0;
+}
+
+@media screen and (max-width:768px) {
+  .col {
+    height: 30px;
+    line-height: 30px;
+    margin-right: 0;
+    margin-bottom: 3px;
+  }
+ .list { 
+    width: 100%;
+    display: block;
+  }
+ .orderedlist li details summary {
+    display: none;
+  }
+}
+
+footer {
+  text-align: center;
+  background-color: #ccc;
+  padding: 30px;
+  margin-top:30px;
+}

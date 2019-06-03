@@ -3,9 +3,11 @@
 body {
   margin: 0 auto;
   font-family: sans-serif;
-  width: 90%;
 }
 
+main {
+  width: 90%;
+}
 
 
 header {

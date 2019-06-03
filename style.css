@@ -23,6 +23,10 @@ header {
   margin-top: 10px;
   }
 
+thead {
+  background: #4d004d;
+  color: #fff;
+  }
 
 footer {
   text-align: center;

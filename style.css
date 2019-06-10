@@ -19,12 +19,17 @@ header {
  /* width: 60%;*/
 }
 
+.btn-group {
+  backgroung: #88cc00;
+  color: #4d3319;
+}
+
 .table-list {
   margin-top: 20px;
   }
 
 thead {
-  background: #4d004d;
+  background: #4d3319;
   color: #fff;
   }
 

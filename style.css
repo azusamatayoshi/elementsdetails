@@ -6,7 +6,7 @@ body {
   background: #fffaf0;
 }
 
-main {
+nav, main {
   width: 90%;
   margin: 0 auto;
 }

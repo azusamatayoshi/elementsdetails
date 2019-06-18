@@ -125,17 +125,24 @@
  <table class="table table-hover">
    <thead>
      <tr>
-       <th col-span="2">基本要素</th>
+       <th>基本要素</th>
        <td>HTML文書を構成する基本要素</td>
      </tr>
      </thead>
    <tbody>
+     <tr>
+      <th scope="row" id="html">html</th>
+      <td>HTML文書における全ての要素を含む、最上位の要素</td>
+    </tr>
+     <tr>
+      <th scope="row" id="head">head</th>
+      <td>文書自身に関する情報を定義する</td>
+    </tr>
     <tr>
-      <th scope="row" id="canvas">canvas</th>
-      <td>図形やアニメーションを表示させるために使用</td>
+      <th scope="row" id="body">body</th>
+      <td>ブラウザに表示される文書内容を表す</td>
     </tr>
      </tbody>
-   
  </table>
  </section>
         
@@ -147,13 +154,35 @@
        <th>文書情報</th>
        <td>・・・・・・</td>
      </tr>
-     </thead>
+   </thead>
    <tbody>
     <tr>
-      <th scope="row" id="canvas">canvas</th>
-      <td>図形やアニメーションを表示させるために使用</td>
+     <th scope="row" id="meta">meta</th>
+     <td>様々な種類のメタデータ（その文書の情報）を表す</td>
     </tr>
-     </tbody>
+    <tr>
+     <th scope="row" id="title">title</th>
+     <td>検索結果やブックマーク、ページのタブなどに表示される文書のタイトルを表す</td>
+    </tr>
+    <tr>
+     <th scope="row" id="base">base</th>
+     <td>文書中で使用される全ての相対URLの基準となるURLを指定する</td>
+    </tr>
+    <tr>
+     <th scope="row" id="link">link</th>
+     <td>・・・</td>
+    </tr>
+    <tr>
+     <th scope="row" id="style">style</th>
+     <td>文書にスタイルを適用する</td>
+    </tr>
+     <th scope="row" id="script">script</th>
+     <td>javascriptなどのスクリプトを埋め込む</td>
+    </tr>
+     <th scope="row" id="noscript">noscript</th>
+     <td>スクリプトが無効の場合に表示される代替内容を表す</td>
+    </tr>
+   </tbody>
    
  </table>
  </section>

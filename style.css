@@ -31,11 +31,15 @@ header {
 thead {
   background: #4d3319;
   color: #fff;
+  padding: 20px;
+  font-size: 1.2em;
   }
 
+/*
 thead td {
   font-size: 0.7em;
   }
+*/
 
 footer {
   text-align: center;

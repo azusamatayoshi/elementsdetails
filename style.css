@@ -31,8 +31,12 @@ header {
 thead {
   background: #4d3319;
   color: #fff;
-  padding: 20px;
-  font-size: 1.2em;
+  padding: 50px;
+  font-size: 1.5em;
+  }
+
+tbody th {
+  width: 15%;
   }
 
 /*

@@ -31,19 +31,16 @@ header {
 thead {
   background: #4d3319;
   color: #fff;
-  padding: 50px;
   font-size: 1.5em;
+  }
+
+thead td {
+  padding: 20px;
   }
 
 tbody th {
   width: 15%;
   }
-
-/*
-thead td {
-  font-size: 0.7em;
-  }
-*/
 
 footer {
   text-align: center;
